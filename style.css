@@ -1,0 +1,60 @@
+
+.row {
+    gap: 30px;
+  }
+  
+  /* blog post */
+  .d-flex {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px; 
+  }
+  
+  /* image sizes */
+  .d-flex img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  /* Style for the left column  */
+  .col-md-8 {
+    display: block; 
+  }
+  
+  /* Sidebar styling */
+  .col-md-4 {
+    display: block; /
+  }
+  
+  /* Sidebar box styling */
+  .col-md-4 div {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 0; /* Square corners as you requested */
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .col-md-4 img {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+  
+ 
+  .col-md-4 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .col-md-4 ul li {
+    padding: 6px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
